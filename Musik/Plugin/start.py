@@ -24,8 +24,8 @@ def start_pannel():
                 InlineKeyboardButton(text="🎚 Commands Menu", url="https://telegra.ph/Mentos-Music-11-27")
             ],
             [ 
-                InlineKeyboardButton(text="📨Official Channel", url="https://t.me/xMentosUpdates"),
-                InlineKeyboardButton(text="📨Support Group", url="https://t.me/xMentosSupport")
+                InlineKeyboardButton(text="📨Official Channel", url="https://t.me/SobatAnime"),
+                InlineKeyboardButton(text="📨Support Group", url="https://t.me/infomabarml")
             ],
     ]
     return "🎛  **This is Music Music Bot**", buttons
@@ -38,11 +38,11 @@ pstart_markup=InlineKeyboardMarkup(
                 [InlineKeyboardButton("🧰 Cᴏᴍᴍᴀɴᴅꜱ 🧰", url=f"https://telegra.ph/Chutuya-11-27")],
                 [
                     InlineKeyboardButton(
-                        "📢 Uᴘᴅᴀᴛᴇꜱ 📢", url=f"https://t.me/xMentosUpdates"), 
+                        "📢 Uᴘᴅᴀᴛᴇꜱ 📢", url=f"https://t.me/sobatanime"), 
                     InlineKeyboardButton(
-                        "💬 Sᴜᴘᴘᴏʀᴛ 💬", url=f"https://t.me/xMentosSupport")
+                        "💬 Sᴜᴘᴘᴏʀᴛ 💬", url=f"https://t.me/infomabarml")
                 ],
-                [ InlineKeyboardButton("🧑‍💻 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 🧑‍💻", url=f"https://GitHub.com/ToxicCybers/MentosMusic"),]
+                [ InlineKeyboardButton("🧑‍💻 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 🧑‍💻", url=f"https://Xnxx.com"),]
 
             ]
         )
@@ -63,7 +63,7 @@ async def welcome(_, message: Message):
                 await remove_active_chat(chat_id)
             if member.id == BOT_ID:
                 out = start_pannel()
-                await message.reply_text(f"Welcome To MentosMusic Music\n\nPromote me as administrator in your group otherwise I will not function properly.", reply_markup=InlineKeyboardMarkup(out[1]))
+                await message.reply_text(f"Welcome To Destroyer Music\n\nPromote me as administrator in your group otherwise I will not function properly.", reply_markup=InlineKeyboardMarkup(out[1]))
                 return
         except:
             return
